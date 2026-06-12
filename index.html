@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jelajah Statistika</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@600;700;800;900&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#1b1024;
+  --card:#2b1633;
+  --border:rgba(255,255,255,.08);
+
+  --teal:#ff66c4;
+  --orange:#ff9f68;
+  --yellow:#ffd166;
+  --blue:#8ec5ff;
+  --green:#72f1b8;
+  --purple:#d9a3ff;
+  --red:#ff6b6b;
+
+  --text:#ffeefe;
+  --muted:#c7b2cc;
+  --white:#ffffff;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  background:linear-gradient(135deg,#1b1024,#2b1633);
+  color:var(--text);
+  font-family:'Nunito Sans',sans-serif;
+  padding:30px 20px;
+}
+
+.logo{
+  font-family:'Fredoka One',sans-serif;
+  font-size:clamp(36px,8vw,70px);
+  text-align:center;
+  margin-top:20px;
+}
+
+.logo{
+  background:linear-gradient(135deg,var(--teal),var(--blue));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.subtitle{
+  text-align:center;
+  color:var(--muted);
+  margin-top:10px;
+  margin-bottom:40px;
+  font-size:15px;
+}
+
+.grid{
+  max-width:1000px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:18px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:22px;
+  text-decoration:none;
+  color:inherit;
+  transition:.3s;
+  position:relative;
+  overflow:hidden;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+.badge{
+  position:absolute;
+  top:12px;
+  right:12px;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#1b1024;
+  font-weight:900;
+}
+
+.icon{
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.title{
+  font-size:18px;
+  font-weight:900;
+  margin-bottom:6px;
+}
+
+.desc{
+  font-size:13px;
+  color:var(--muted);
+  line-height:1.5;
+}
+
+.footer{
+  margin-top:40px;
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="logo">Jelajah Statistika</div>
+
+<div class="subtitle">
+Media Pembelajaran Interaktif Mean, Median, dan Modus
+</div>
+
+<div class="grid">
+
+<a class="card" href="01-beranda.html">
+<div class="badge" style="background:#ff66c4;">1</div>
+<div class="icon">🏠</div>
+<div class="title">Beranda</div>
+<div class="desc">Tujuan pembelajaran dan menu utama.</div>
+</a>
+
+<a class="card" href="02-pretest.html">
+<div class="badge" style="background:#ff8fb8;">2</div>
+<div class="icon">📝</div>
+<div class="title">Pretest</div>
+<div class="desc">Mengukur kemampuan awal sebelum belajar.</div>
+</a>
+
+<a class="card" href="03-cerita.html">
+<div class="badge" style="background:#ff9f68;">3</div>
+<div class="icon">📖</div>
+<div class="title">Cerita Animasi</div>
+<div class="desc">Belajar statistika melalui cerita interaktif.</div>
+</a>
+
+<a class="card" href="04-materi.html">
+<div class="badge" style="background:#8ec5ff;">4</div>
+<div class="icon">📚</div>
+<div class="title">Materi</div>
+<div class="desc">Mean, Median, Modus dan Nilai Ekstrem.</div>
+</a>
+
+<a class="card" href="05-simulasi.html">
+<div class="badge" style="background:#72f1b8;">5</div>
+<div class="icon">🔬</div>
+<div class="title">Simulasi</div>
+<div class="desc">Eksplorasi data secara interaktif.</div>
+</a>
+
+<a class="card" href="06-latihan.html">
+<div class="badge" style="background:#ffd166;">6</div>
+<div class="icon">🎮</div>
+<div class="title">Latihan & Game</div>
+<div class="desc">Latihan soal dan permainan edukatif.</div>
+</a>
+
+<a class="card" href="07-posttest.html">
+<div class="badge" style="background:#ff6b6b;">7</div>
+<div class="icon">📊</div>
+<div class="title">Posttest</div>
+<div class="desc">Mengukur peningkatan hasil belajar.</div>
+</a>
+
+<a class="card" href="08-developer.html">
+<div class="badge" style="background:#d9a3ff;">8</div>
+<div class="icon">👤</div>
+<div class="title">Developer</div>
+<div class="desc">Profil pengembang media pembelajaran.</div>
+</a>
+
+</div>
+
+<div class="footer">
+Jelajah Statistika • Barrotut Taqiyah • NIM 241001015
+<br>
+Media Pembelajaran Interaktif Mean, Median, dan Modus
+</div>
+
+</body>
+</html>
